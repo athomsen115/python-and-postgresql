@@ -1,6 +1,4 @@
----
-title: pgbackup
-...
+# pgbackup
 
 CLI for backing up remote PostgreSQL databases to a local computer or to S3
 
