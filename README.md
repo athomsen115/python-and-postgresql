@@ -17,16 +17,17 @@ Usage
 Pass in a full database URL, the storage driver (local or S3), and the
 destination
 
-S3 Example w/ bucket name: :: \$ pgbackup
-postgres:<//bob@example.com>:5432/db\_one --driver s3 backups
+S3 Example w/ bucket name: 
+ $ pgbackup postgres:<//bob@example.com>:5432/db\_one --driver s3 backups
 
-Local Example with local path: :: \$ pgbackup
-postgres:<//bob@example.com>:5432/db\_one --driver local
-/var/local/db\_one/backups/dump.sql
+Local Example with local path: 
+ $ pgbackup postgres:<//bob@example.com>:5432/db\_one --driver local /var/local/db\_one/backups/dump.sql
 
 Running Tests
 =============
 
-Run tests locally using `make` if virtualenv is active: :: \$ make
+Run tests locally using `make` if virtualenv is active: 
+ $ make
 
-If virtualenv isn't active then use: :: \$ pipenv run make
+If virtualenv isn't active then use: 
+ $ pipenv run make
